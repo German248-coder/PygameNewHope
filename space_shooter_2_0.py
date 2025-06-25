@@ -35,7 +35,7 @@ try:
     enemy_img = pygame.image.load('img/sid_enemy.png').convert_alpha()
     enemy_img = pygame.transform.scale(enemy_img, (100, 80))
 
-    red_laser = pygame.image.load('img/player_laser.png').convert_alpha()
+    red_laser = pygame.image.load('img/red_laser.png').convert_alpha()
     red_laser = pygame.transform.scale(red_laser, (80, 70))
 
     green_laser = pygame.image.load('img/Green_Laser.png').convert_alpha()
